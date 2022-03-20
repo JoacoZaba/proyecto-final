@@ -1,0 +1,13 @@
+#nav{
+    font-size:30px;
+    word-spacing:normal;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+.navBar a{
+    color: rgb(2, 127, 185);
+    font-family:'Kaushan Script', cursive;
+    text-decoration: none;
+}

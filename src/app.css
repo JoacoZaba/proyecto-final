@@ -1,0 +1,49 @@
+
+*{
+    background: rgb(31, 31, 31);
+    color: lightgray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.app{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "producto1 producto2"
+    "producto3 producto4"
+    "producto5 producto6"
+    "footer footer";
+    grid-template-rows: 50px 100px 400px 400px 400px 60px;
+    grid-template-columns: 49% 49%;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+#producto1{
+    grid-area: producto1;
+}
+#producto2{
+    grid-area: producto2;
+}
+#producto3{
+    grid-area: producto3;
+}
+#producto4{
+    grid-area: producto4;
+}
+#producto5{
+    grid-area: producto5;
+}
+#producto6{
+    grid-area: producto6;
+}
+.footer{
+    grid-area: footer;
+}
