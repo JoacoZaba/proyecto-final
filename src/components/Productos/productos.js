@@ -1,9 +1,4 @@
-import Prostar1 from './prostarneosense.jpg'
-import Prostar2 from './prostarnegro.jpg'
-import Reusch1 from './reuschaqua.jpg'
-import Reusch2 from './reuschwhite.jpg'
-import Rinat1 from './rinatazul.jpg'
-import Rinat2 from './rinatdorado.jpg' 
+ 
 import Producto from './Producto/producto.js'
 
 const Productos = (props) => {
